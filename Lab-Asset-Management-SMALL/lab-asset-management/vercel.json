@@ -1,0 +1,11 @@
+{
+  "framework": null,
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/index?__p=/api/:path*" },
+    { "source": "/a/:tag", "destination": "/api/index?__p=/a/:tag" },
+    { "source": "/install", "destination": "/api/index?__p=/install" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "functions": { "api/index.js": { "maxDuration": 30 } }
+}

@@ -1,0 +1,1 @@
+{"name":"lab-asset-management","version":"4.0.0","private":true,"type":"module","engines":{"node":"20.x"},"dependencies":{"@neondatabase/serverless":"^1.0.0"},"devDependencies":{"@electric-sql/pglite":"^0.2.0"}}
